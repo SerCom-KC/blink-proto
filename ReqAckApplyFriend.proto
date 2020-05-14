@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqAckApplyFriend {
+  required uint64 apply_id = 1;
+  required uint32 op_code = 2;
+  optional string reply_content = 3;
+}
+

@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqApplyFriend {
+  required uint64 friend_uid = 2;
+  required uint64 uid = 1;
+  optional string verify_text = 3;
+}
+

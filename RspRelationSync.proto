@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message RspRelationSync {
+  repeated FriendRelation friend_list = 3; // original: com.bilibili.bilibililive.im.protobuf.FriendRelation
+  required int32 full = 1;
+  repeated GroupRelation group_list = 5; // original: com.bilibili.bilibililive.im.protobuf.GroupRelation
+  repeated RelationLog relation_logs = 2; // original: com.bilibili.bilibililive.im.protobuf.RelationLog
+  required uint64 server_relation_oplog_seqno = 4;
+}
+

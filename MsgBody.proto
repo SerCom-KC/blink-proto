@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+message MsgBody {
+  optional int32 call_type = 3;
+  optional uint64 cli_req_id = 2;
+  optional int32 cmd = 1;
+  optional int32 err_code = 9;
+  optional string err_msg = 11;
+  optional int32 method = 8;
+  optional bytes payload = 10;
+  optional string service = 7;
+  optional uint64 session_code = 4;
+  optional uint64 ss_req_id = 6;
+  optional UserContext uctx = 5; // original: com.bilibili.bilibililive.im.protobuf.UserContext
+}
+

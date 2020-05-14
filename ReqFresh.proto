@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqFresh {
+  optional string token = 1;
+}
+

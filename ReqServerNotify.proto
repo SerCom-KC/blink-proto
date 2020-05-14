@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqServerNotify {
+  optional Msg instant_msg = 2; // original: com.bilibili.bilibililive.im.protobuf.Msg
+  required uint64 lastest_seqno = 1;
+}
+

@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqHands {
+  optional uint64 uid = 1;
+}
+

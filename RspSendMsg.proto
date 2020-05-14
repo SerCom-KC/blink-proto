@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSendMsg {
+  optional uint64 msg_key = 1;
+}
+

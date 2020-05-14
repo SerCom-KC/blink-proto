@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+enum RelationLogType {
+  EN_INVALID_LOG_TYPE = 0;
+  EN_ADD_FRIEND = 1;
+  EN_REMOVE_FRIEND = 2;
+  EN_JOIN_GROUP = 3;
+  EN_EXIT_GROUP = 4;
+}
+

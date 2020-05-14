@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message Location {
+  required uint64 code = 3;
+  required int32 fd = 2;
+  optional string ip = 4;
+  optional int32 port = 5;
+  required uint64 uid = 1;
+}
+

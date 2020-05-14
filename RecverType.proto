@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+enum RecverType {
+  EN_RECVER_TYPE_PEER = 1;
+  EN_RECVER_TYPE_GROUP = 2;
+  EN_RECVER_TYPE_PEERS = 3;
+}
+
