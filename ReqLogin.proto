@@ -7,7 +7,7 @@ message ReqLogin {
   required int32 dev_type = 3;
   optional string fast_token = 9;
   optional double latitude = 7;
-  optional Location location = 5; // original: com.bilibili.bilibililive.im.protobuf.Location
+  optional Location location = 5; // original: Location
   optional double longitude = 6;
   required uint64 uid = 1;
   optional string version = 8;

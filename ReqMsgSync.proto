@@ -2,6 +2,7 @@ syntax = "proto2";
 
 message ReqMsgSync {
   required uint64 client_seqno = 1;
+  optional bool has_self = 4;
   optional uint32 msg_count = 2;
   optional uint64 uid = 3;
 }

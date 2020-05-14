@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqUpdateMss {
+  optional MssItem item = 1; // original: blink.MssItem
+}
+

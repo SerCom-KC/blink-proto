@@ -11,6 +11,6 @@ message MsgBody {
   optional string service = 7;
   optional uint64 session_code = 4;
   optional uint64 ss_req_id = 6;
-  optional UserContext uctx = 5; // original: com.bilibili.bilibililive.im.protobuf.UserContext
+  optional UserContext uctx = 5; // original: UserContext
 }
 

@@ -1,7 +1,7 @@
 syntax = "proto2";
 
 message RspSearch {
-  repeated GroupDesc groups = 1; // original: com.bilibili.bilibililive.im.protobuf.GroupDesc
-  repeated UserDesc users = 2; // original: com.bilibili.bilibililive.im.protobuf.UserDesc
+  repeated GroupDesc groups = 1; // original: GroupDesc
+  repeated UserDesc users = 2; // original: UserDesc
 }
 

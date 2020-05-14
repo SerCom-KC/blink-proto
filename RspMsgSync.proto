@@ -3,6 +3,6 @@ syntax = "proto2";
 message RspMsgSync {
   required bool has_more = 1;
   optional uint64 max_seqno = 2;
-  repeated Msg messages = 3; // original: com.bilibili.bilibililive.im.protobuf.Msg
+  repeated Msg messages = 3; // original: Msg
 }
 

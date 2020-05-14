@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspUpdateMss {
+  optional int64 ts = 1;
+}
+
