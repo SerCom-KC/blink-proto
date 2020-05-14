@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+enum BusinessType {
+  EN_BUSINESS_TYPE_IM = 1;
+  EN_BUSINESS_TYPE_LIVE = 2;
+}
+

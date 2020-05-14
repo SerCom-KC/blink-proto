@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+message ReqLogin {
+  required string access_key = 2;
+  optional uint32 auto_login = 10;
+  required string dev_id = 4;
+  required int32 dev_type = 3;
+  optional string fast_token = 9;
+  optional double latitude = 7;
+  optional Location location = 5; // original: com.bilibili.bilibililive.im.protobuf.Location
+  optional double longitude = 6;
+  required uint64 uid = 1;
+  optional string version = 8;
+}
+

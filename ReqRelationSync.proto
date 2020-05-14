@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqRelationSync {
+  required uint64 client_relation_oplog_seqno = 1;
+}
+

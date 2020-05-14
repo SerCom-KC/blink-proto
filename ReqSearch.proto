@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqSearch {
+  optional int32 flag = 2;
+  required string what = 1;
+}
+

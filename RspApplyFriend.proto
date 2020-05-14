@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspApplyFriend {
+  optional uint64 apply_id = 1;
+}
+

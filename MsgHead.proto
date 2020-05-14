@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message MsgHead {
+  required fixed32 crc = 2;
+  required fixed32 len = 1;
+}
+

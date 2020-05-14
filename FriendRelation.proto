@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+message FriendRelation {
+  optional string face = 3;
+  required uint64 uid = 1;
+  optional string user_name = 2;
+  optional uint32 vip_level = 4;
+}
+

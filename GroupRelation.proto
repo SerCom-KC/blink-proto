@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+message GroupRelation {
+  optional string fans_medal_name = 10;
+  optional string group_cover = 5;
+  required uint64 group_id = 1;
+  optional uint32 group_level = 4;
+  optional string group_name = 6;
+  optional string group_notice = 7;
+  optional uint32 group_type = 3;
+  optional int32 member_role = 9;
+  optional uint64 owner_uid = 2;
+  optional uint64 room_id = 11;
+  optional int32 status = 8;
+}
+

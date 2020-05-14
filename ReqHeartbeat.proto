@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqHeartbeat {
+  optional int32 background = 3;
+  required uint64 msg_seqno = 1;
+  required uint64 op_seqno = 2;
+}
+

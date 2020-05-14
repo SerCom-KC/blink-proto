@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqSendMsg {
+  optional bool instant = 2;
+  required Msg msg = 1; // original: com.bilibili.bilibililive.im.protobuf.Msg
+}
+

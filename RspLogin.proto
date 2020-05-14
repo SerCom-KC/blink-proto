@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message RspLogin {
+  optional string next_token = 1;
+  optional uint64 server_latest_seqno = 2;
+  optional uint64 uid = 3;
+}
+

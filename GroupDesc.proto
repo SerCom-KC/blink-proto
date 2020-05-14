@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message GroupDesc {
+  optional string fans_medal_name = 5;
+  optional string group_cover = 3;
+  required uint64 group_id = 1;
+  optional string group_name = 2;
+  optional int32 group_type = 4;
+}
+

@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message UserContext {
+  required string cli_ip = 2;
+  required string conn_ip = 3;
+  required int32 conn_port = 4;
+  optional int32 dev_crc32 = 7;
+  optional int32 dev_type = 5;
+  optional uint64 ss_trace_id = 6;
+  repeated TracePoint trace_points = 8; // original: com.bilibili.bilibililive.im.protobuf.TracePoint
+  required uint64 uid = 1;
+}
+
