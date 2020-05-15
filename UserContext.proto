@@ -6,8 +6,10 @@ message UserContext {
   required int32 conn_port = 4;
   optional int32 dev_crc32 = 7;
   optional int32 dev_type = 5;
+  optional int32 flag_test = 10;
   optional uint64 ss_trace_id = 6;
-  repeated TracePoint trace_points = 8; // original: com.bilibili.bilibililive.im.protobuf.TracePoint
+  optional string ss_trace_id_s = 9;
+  repeated TracePoint trace_points = 8; // original: blink.TracePoint
   required uint64 uid = 1;
 }
 

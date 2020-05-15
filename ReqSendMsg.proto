@@ -1,7 +1,11 @@
 syntax = "proto2";
 
 message ReqSendMsg {
+  optional string cookie = 3;
+  optional string cookie2 = 4;
+  optional int32 error_code = 6;
   optional bool instant = 2;
   required Msg msg = 1; // original: com.bilibili.bilibililive.im.protobuf.Msg
+  optional int32 official_msg = 5;
 }
 
