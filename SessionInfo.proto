@@ -12,8 +12,10 @@ message SessionInfo {
   optional uint32 is_follow = 7;
   optional Msg last_msg = 13; // original: blink.Msg
   optional uint64 max_seqno = 17;
+  optional uint32 new_push_msg = 18;
   required uint64 session_ts = 11;
   required uint32 session_type = 2;
+  optional uint32 setting = 19;
   optional uint32 status = 16;
   required uint64 talker_id = 1;
   required uint64 top_ts = 4;

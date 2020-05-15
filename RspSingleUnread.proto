@@ -2,6 +2,7 @@ syntax = "proto2";
 
 message RspSingleUnread {
   optional uint64 follow_unread = 2;
+  optional uint32 unfollow_push_msg = 3;
   optional uint64 unfollow_unread = 1;
 }
 

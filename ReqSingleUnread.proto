@@ -1,6 +1,7 @@
 syntax = "proto2";
 
 message ReqSingleUnread {
+  optional uint32 show_unfollow_list = 2;
   optional uint32 unread_type = 1;
 }
 
