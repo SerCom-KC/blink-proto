@@ -1,6 +1,6 @@
 syntax = "proto2";
 
 message RspGetMss {
-  repeated MssItem item = 1; // original: com.bilibili.bilibililive.im.protobuf.MssItem
+  repeated MssItem item = 1; // original: MssItem
 }
 
