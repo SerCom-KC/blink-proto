@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+message ReqSetMsgDndSetting {
+  optional uint64 dnd_group_id = 3;
+  optional uint64 dnd_uid = 2;
+  required int32 setting = 4;
+  required uint64 uid = 1;
+}
+

@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+enum SCallType {
+  EN_MSG_TYPE_REQUEST = 1;
+  EN_MSG_TYPE_RESPONSE = 2;
+}
+

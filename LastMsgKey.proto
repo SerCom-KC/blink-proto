@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+message LastMsgKey {
+  optional Msg msg = 4; // original: blink.Msg
+  optional uint64 msg_key = 3;
+  required uint64 receiver_uid = 1;
+  required uint64 session_id = 2;
+}
+

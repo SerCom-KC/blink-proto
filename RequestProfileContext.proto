@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+message RequestProfileContext {
+  optional int32 flag_test = 6;
+  optional string source_color = 4;
+  optional string source_group = 3;
+  required uint64 ss_trace_id = 1;
+  required string ss_trace_id_s = 2;
+  repeated TracePoint trace_points = 7; // original: blink.TracePoint
+  optional int32 ttl_timeout = 5;
+}
+

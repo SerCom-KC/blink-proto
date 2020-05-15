@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message rsp_http {
+  optional int32 code = 1;
+  optional string content = 3;
+  optional string err_msg = 2;
+}
+

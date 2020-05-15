@@ -7,6 +7,7 @@ message UserContext {
   optional int32 dev_crc32 = 7;
   optional int32 dev_type = 5;
   optional int32 flag_test = 10;
+  optional string platform = 11;
   optional uint64 ss_trace_id = 6;
   optional string ss_trace_id_s = 9;
   repeated TracePoint trace_points = 8; // original: blink.TracePoint

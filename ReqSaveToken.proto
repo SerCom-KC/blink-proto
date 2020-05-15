@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqSaveToken {
+  required int32 app_id = 1;
+  required string dev_token = 3;
+  required int32 dev_type = 2;
+}
+

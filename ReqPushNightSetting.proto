@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqPushNightSetting {
+  required int32 app_id = 1;
+  required int32 push_state = 2;
+}
+

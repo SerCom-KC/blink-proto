@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message UserProfileContext {
+  required string body_header = 4;
+  required string body_http = 5;
+  required UserPlatformEnum platform = 3; // original: blink.UserPlatformEnum
+  required uint64 uid = 1;
+  required string user_ip = 2;
+}
+

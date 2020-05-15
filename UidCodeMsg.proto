@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message UidCodeMsg {
+  optional int32 err_code = 2;
+  optional string err_msg = 3;
+  optional uint64 uid = 1;
+}
+

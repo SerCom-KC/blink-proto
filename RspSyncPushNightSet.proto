@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSyncPushNightSet {
+  repeated int32 app_ids = 1;
+}
+

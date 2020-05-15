@@ -1,7 +1,8 @@
 syntax = "proto2";
 
 message ReqServerNotify {
-  optional Msg instant_msg = 2; // original: Msg
+  optional Msg instant_msg = 2; // original: blink.Msg
   required uint64 lastest_seqno = 1;
+  optional NotifyInfo notify_info = 3; // original: blink.NotifyInfo
 }
 

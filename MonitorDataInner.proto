@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+message MonitorDataInner {
+  required string monitor_key = 2;
+  required int32 monitor_value = 3;
+  required string service_type = 1;
+  optional uint64 timestamp = 4;
+}
+

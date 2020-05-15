@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message RspGetMsgDndSetting {
+  repeated Setting group_settings = 2; // original: blink.Setting
+  repeated Setting uid_settings = 1; // original: blink.Setting
+}
+

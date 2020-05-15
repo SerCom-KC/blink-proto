@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message RspGetUsrSetting {
+  optional int32 msg_notify = 2;
+  optional int32 set_at = 5;
+  optional int32 set_comment = 4;
+  optional int32 set_like = 3;
+  optional int32 show_unfollowed_msg = 1;
+}
+

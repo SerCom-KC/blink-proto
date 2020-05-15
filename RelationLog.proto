@@ -1,8 +1,8 @@
 syntax = "proto2";
 
 message RelationLog {
-  optional FriendRelation friend_relation = 3; // original: FriendRelation
-  optional GroupRelation group_relation = 4; // original: GroupRelation
+  optional FriendRelation friend_relation = 3; // original: blink.FriendRelation
+  optional GroupRelation group_relation = 4; // original: blink.GroupRelation
   required int32 log_type = 1;
   required uint64 oplog_seqno = 2;
 }

@@ -3,9 +3,12 @@ syntax = "proto2";
 message ReqSendMsg {
   optional string cookie = 3;
   optional string cookie2 = 4;
+  optional string dev_id = 7;
   optional int32 error_code = 6;
+  optional ExtInfo ext_info = 9; // original: blink.ExtInfo
   optional bool instant = 2;
-  required Msg msg = 1; // original: Msg
+  required Msg msg = 1; // original: blink.Msg
   optional int32 official_msg = 5;
+  optional bool sync = 8;
 }
 

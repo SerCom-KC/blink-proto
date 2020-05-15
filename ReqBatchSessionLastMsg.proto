@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqBatchSessionLastMsg {
+  required uint64 receiver_uid = 1;
+  repeated BatchSessions sessions = 2; // original: blink.BatchSessions
+}
+

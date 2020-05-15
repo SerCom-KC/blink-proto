@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSessionDetails {
+  repeated SessionInfo sess_infos = 1; // original: blink.SessionInfo
+}
+

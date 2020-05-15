@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqUpdateAck {
+  required uint64 ack_seqno = 3;
+  required uint32 session_type = 2;
+  required uint64 talker_id = 1;
+}
+

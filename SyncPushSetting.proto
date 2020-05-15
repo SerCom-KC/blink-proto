@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message SyncPushSetting {
+  required int32 business_id = 1;
+  required uint64 msg_src_id = 3;
+  required int32 msg_src_type = 2;
+}
+

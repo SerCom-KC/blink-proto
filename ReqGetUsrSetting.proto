@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqGetUsrSetting {
+  optional int32 msg_notify = 2;
+  optional int32 show_unfollowed_msg = 1;
+}
+

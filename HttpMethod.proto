@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+enum HttpMethod {
+  HTTP_GET = 1;
+  HTTP_POST = 2;
+  HTTP_HEAD = 3;
+  HTTP_OPTIONS = 4;
+  HTTP_PUT = 5;
+  HTTP_DELETE = 6;
+  HTTP_TRACE = 7;
+  HTTP_CONNECT = 8;
+}
+

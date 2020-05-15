@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqIsLimit {
+  required int32 type = 2;
+  required uint64 uid = 1;
+}
+

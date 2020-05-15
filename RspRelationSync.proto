@@ -1,10 +1,10 @@
 syntax = "proto2";
 
 message RspRelationSync {
-  repeated FriendRelation friend_list = 3; // original: FriendRelation
+  repeated FriendRelation friend_list = 3; // original: blink.FriendRelation
   required int32 full = 1;
-  repeated GroupRelation group_list = 5; // original: GroupRelation
-  repeated RelationLog relation_logs = 2; // original: RelationLog
+  repeated GroupRelation group_list = 5; // original: blink.GroupRelation
+  repeated RelationLog relation_logs = 2; // original: blink.RelationLog
   required uint64 server_relation_oplog_seqno = 4;
 }
 

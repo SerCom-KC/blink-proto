@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSessionInfos {
+  repeated DbSingleSession session_infos = 1; // original: blink.DbSingleSession
+}
+

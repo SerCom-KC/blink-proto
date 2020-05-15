@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message DbSingleSessions {
+  repeated DbSingleSession single_sessions = 1; // original: blink.DbSingleSession
+}
+

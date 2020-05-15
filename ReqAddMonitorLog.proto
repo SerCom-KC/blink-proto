@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqAddMonitorLog {
+  repeated MonitorDataInner monitor_log = 1; // original: blink.MonitorDataInner
+}
+

@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message RebuildCacheCb {
+  optional uint32 rebuild_type = 3;
+  optional uint32 session_type = 2;
+  optional uint64 uid = 1;
+}
+

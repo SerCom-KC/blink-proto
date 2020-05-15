@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqGroupAssisMsg {
+  required uint64 client_seqno = 1;
+  required uint32 size = 2;
+}
+

@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ProfileContexts {
+  optional CallerProfileContext caller_profile = 3; // original: blink.CallerProfileContext
+  optional RequestProfileContext req_profile = 2; // original: blink.RequestProfileContext
+  optional UserProfileContext user_profile = 1; // original: blink.UserProfileContext
+}
+

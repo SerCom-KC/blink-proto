@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+message DbSingleSession {
+  optional uint64 ack_cursor = 6;
+  optional uint64 ack_seqno = 5;
+  optional uint64 deleted_seqno = 7;
+  optional uint32 draw_back_count = 11;
+  optional uint32 is_dnd = 10;
+  optional uint32 is_follow = 9;
+  optional uint64 max_seqno = 4;
+  optional uint64 receiver_uid = 2;
+  optional uint64 sender_uid = 1;
+  optional uint64 session_ts = 3;
+  optional uint32 status = 13;
+  optional uint64 top_ts = 8;
+  optional uint32 unread = 12;
+}
+

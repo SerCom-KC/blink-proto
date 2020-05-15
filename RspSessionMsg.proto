@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+message RspSessionMsg {
+  optional int32 has_more = 2;
+  optional uint64 max_seqno = 4;
+  repeated Msg messages = 1; // original: blink.Msg
+  optional uint64 min_seqno = 3;
+}
+

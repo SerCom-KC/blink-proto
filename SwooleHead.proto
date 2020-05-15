@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message SwooleHead {
+  optional string Host = 1;
+}
+

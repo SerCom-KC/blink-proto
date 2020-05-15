@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqRemoveSession {
+  required uint32 session_type = 2;
+  required uint64 talker_id = 1;
+}
+

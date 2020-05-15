@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqPushTotalSetting {
+  required int32 business_id = 1;
+  required int32 push_state = 2;
+}
+

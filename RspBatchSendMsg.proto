@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspBatchSendMsg {
+  repeated ReqSendMsg failed_msg_list = 1; // original: blink.ReqSendMsg
+}
+

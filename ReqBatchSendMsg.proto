@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqBatchSendMsg {
+  repeated ReqSendMsg send_msg_list = 1; // original: blink.ReqSendMsg
+}
+

@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqSingleUnread {
+  optional uint32 unread_type = 1;
+}
+

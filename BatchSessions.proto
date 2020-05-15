@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message BatchSessions {
+  optional uint64 max_seqno = 2;
+  required uint64 session_id = 1;
+  required int32 session_type = 3;
+}
+

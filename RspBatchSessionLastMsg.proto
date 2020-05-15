@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspBatchSessionLastMsg {
+  repeated LastMsgKey last_msgs = 1; // original: blink.LastMsgKey
+}
+

@@ -1,9 +1,14 @@
 syntax = "proto2";
 
 message TracePoint {
+  optional int32 caller_cost = 9;
+  optional uint64 caller_rcv_ts = 8;
   optional string content = 4;
+  optional int32 err_code = 7;
+  optional string ip = 6;
   optional string method = 3;
   optional int32 milli_cost = 5;
+  repeated TracePoint points = 10; // original: blink.TracePoint
   optional string service = 2;
   optional uint64 timestamp = 1;
 }

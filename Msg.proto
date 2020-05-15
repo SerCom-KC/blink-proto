@@ -12,6 +12,7 @@ message Msg {
   optional int32 receiver_type = 2;
   repeated uint64 recver_ids = 10;
   optional uint64 sender_uid = 1;
+  optional bool sys_cancel = 13;
   optional uint64 timestamp = 8;
 }
 

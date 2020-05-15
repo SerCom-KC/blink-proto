@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSendMsgs {
+  repeated UidCodeMsg failed_msgs = 1; // original: blink.UidCodeMsg
+}
+

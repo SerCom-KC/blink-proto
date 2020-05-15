@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message ReqAckAssisMsg {
+  required uint64 ack_seqno = 1;
+}
+

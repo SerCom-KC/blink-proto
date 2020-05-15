@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+message ReqSessionMsg {
+  optional uint64 begin_seqno = 4;
+  optional uint64 end_seqno = 3;
+  optional int32 order = 6;
+  required int32 session_type = 2;
+  optional int32 size = 5;
+  required uint64 talker_id = 1;
+}
+

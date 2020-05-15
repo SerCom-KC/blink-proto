@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqSessionInfos {
+  optional uint32 need_all = 3;
+  required uint64 receiver_id = 1;
+  repeated uint64 sender_uid = 2;
+}
+

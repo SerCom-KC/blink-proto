@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+enum UserPlatformEnum {
+  USER_PLATFORM_IOS = 0;
+  USER_PLATFORM_ANDROID = 1;
+  USER_PLATFORM_WEB = 2;
+}
+

@@ -2,5 +2,7 @@ syntax = "proto2";
 
 enum ApplicationType {
   EN_APP_TYPE_BLINK = 1;
+  EN_APP_TYPE_BLUE = 2;
+  EN_APP_TYPE_PINK = 3;
 }
 

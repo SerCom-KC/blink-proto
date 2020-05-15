@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message ReqGetMsgDndSetting {
+  repeated uint64 group_ids = 3;
+  optional string group_ids_str = 5;
+  required uint64 own_uid = 1;
+  repeated uint64 uids = 2;
+  optional string uids_str = 4;
+}
+

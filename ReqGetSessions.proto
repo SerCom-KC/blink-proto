@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message ReqGetSessions {
+  optional uint64 begin_ts = 1;
+  optional uint64 end_ts = 2;
+  optional uint32 group_fold = 6;
+  required uint32 session_type = 4;
+  optional uint32 size = 3;
+  required uint32 sort_rule = 7;
+  optional uint32 teenager_mode = 8;
+  optional uint32 unfollow_fold = 5;
+}
+

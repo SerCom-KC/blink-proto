@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message Setting {
+  required uint64 id = 1;
+  required int32 setting = 2;
+}
+

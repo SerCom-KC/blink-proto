@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqRebuildCacheCb {
+  optional string msg = 2;
+  optional string msg_content = 1;
+}
+

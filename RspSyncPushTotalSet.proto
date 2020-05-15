@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSyncPushTotalSet {
+  repeated int32 business_ids = 1;
+}
+

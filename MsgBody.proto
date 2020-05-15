@@ -1,16 +1,21 @@
 syntax = "proto2";
 
 message MsgBody {
+  optional uint32 build = 16;
   optional int32 call_type = 3;
   optional uint64 cli_req_id = 2;
   optional int32 cmd = 1;
+  optional int32 cpu_usage = 13;
   optional int32 err_code = 9;
   optional string err_msg = 11;
   optional int32 method = 8;
+  optional string mobi_app = 15;
+  optional int32 need_trace_point = 12;
   optional bytes payload = 10;
+  optional ProfileContexts profile_ctxs = 14; // original: blink.ProfileContexts
   optional string service = 7;
   optional uint64 session_code = 4;
   optional uint64 ss_req_id = 6;
-  optional UserContext uctx = 5; // original: UserContext
+  optional UserContext uctx = 5; // original: blink.UserContext
 }
 

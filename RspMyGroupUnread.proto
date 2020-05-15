@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspMyGroupUnread {
+  optional uint32 unread_count = 1;
+}
+

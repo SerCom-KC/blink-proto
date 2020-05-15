@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqUpdateAt {
+  optional uint64 at_seqno = 3;
+  repeated uint64 at_uids = 2;
+  required uint64 group_id = 1;
+}
+

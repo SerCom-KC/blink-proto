@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ReqNewSessions {
+  optional uint64 begin_ts = 1;
+  optional uint32 size = 2;
+}
+

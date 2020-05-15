@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message ReqAckSessions {
+  optional uint64 begin_ts = 1;
+  optional uint32 end_ts = 2;
+  optional uint32 size = 3;
+}
+

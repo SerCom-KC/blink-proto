@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+enum ContentType {
+  CONTENT_TYPE_FORM_URLENCODE = 1;
+  CONTENT_TYPE_FORM_DATA = 2;
+  CONTENT_TYPE_JSON = 3;
+}
+

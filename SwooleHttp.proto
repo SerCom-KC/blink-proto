@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message SwooleHttp {
+  optional SwooleHead header = 1; // original: blink.SwooleHead
+}
+

@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message RspSessions {
+  optional uint32 has_more = 2;
+  repeated SessionInfo session_list = 1; // original: blink.SessionInfo
+}
+

@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+message RspSyncPushSet {
+  repeated SyncPushSetting push_settings = 1; // original: blink.SyncPushSetting
+}
+
